@@ -21,7 +21,9 @@ export default function RootLayout({
     <html lang="es">
       <body className="h-full flex flex-col ">
         <Header />
-        {children}
+        <div className="container mx-auto flex flex-col justify-center items-center h-full mt-10">
+          {children}
+        </div>
         <Footer />
       </body>
     </html>
